@@ -1,0 +1,5 @@
+fizzr Function,PhysioScripts Function
+process_ecg(),process.ecg()
+extract_ibi(),extract.ibi()
+read_vars(),read.vars()
+read_data(),read.data()
