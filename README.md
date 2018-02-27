@@ -52,52 +52,8 @@ Currently 'tidied' Functions
 
 So far, the following functions are be called directly from the package without having to load the `PhysioScripts` suite:
 
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-fizzr Function
-</th>
-<th style="text-align:left;">
-PhysioScripts Function
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-process\_ecg()
-</td>
-<td style="text-align:left;">
-process.ecg()
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-extract\_ibi()
-</td>
-<td style="text-align:left;">
-extract.ibi()
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-read\_vars()
-</td>
-<td style="text-align:left;">
-read.vars()
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-read\_data()
-</td>
-<td style="text-align:left;">
-read.data()
-</td>
-</tr>
-</tbody>
-</table>
+-   `process_ecg()`
+
 Motivation and Rationale
 ========================
 

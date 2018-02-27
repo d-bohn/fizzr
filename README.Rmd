@@ -60,15 +60,7 @@ will be available once this package is finished, you can do so by:
 So far, the following functions are be called directly from the package without having to
 load the `PhysioScripts` suite:
 
-```{r echo=FALSE}
-library(kableExtra)
-list <- system.file('extdata', 'current_functions.csv', package = 'fizzr')
-
-readr::read_csv(list) %>% 
-  knitr::kable(., 'html') %>%
-  kableExtra::kable_styling(bootstrap_options = "striped", full_width = FALSE, position = 'center')
-```
-
+- `process_ecg()`
 
 # Motivation and Rationale
 The current motivation for porting these functions to a new package is three-fold.
