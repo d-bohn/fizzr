@@ -8,6 +8,8 @@ fizzr
 
 The `fizzr` package (*phys*iological analysis in *r*) is a tidy implementation/port of the `PhysioScripts` suite of functions, originally published by Christie and Gianaros (2013). Further documentation and relevant publication can be found online in the journal [*Behavioral Research Methods*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3767411/).
 
+The original `.RData` file for the `PhysioScripts` package is included in the `data` folder. However, all of these original functions have been transferred to the package as "legacy" functions that are still callable (as of now).
+
 Installing
 ----------
 
@@ -17,12 +19,35 @@ Installing
 Browsing
 --------
 
-Each function is being re-evaluated for 'tidyness', and then ported (slowly) to this package. If you would like to load the `PhysioScripts` suite of functions to browse all of the functions that will be available once this package is finished, you can do so by:
+Each function is being re-evaluated for 'tidiness', and then ported (slowly) to this package. If you would like to browse the original `PhysioScripts` suite of functions that will be available once this package is finished, you can do so by:
 
     library(fizzr)
-    load_physioscripts()
+    ls('package:fizzr')
 
-Currently Imported Functions
+Timeline/Steps
+--------------
+
+1). Import all of the `PhysioScripts` functions "as is" into the `fizzr` package (complete)
+
+2). Tidy and re-write the functions
+
+-   Clean/format code according to [style guide](http://adv-r.had.co.nz/Style.html)
+
+-   Add documentation to separate files
+
+-   Remove ability to use interactive file selection
+
+    -   Remove dependency for `tcltk`
+
+    -   Remove unnecessary interactive functions (e.g., `confirm.file.replace`)
+
+-   Replace `.` with `_` to emulate tidy logic
+
+-   Alter code to allow "pipe-able" chains
+
+3). Deploy version 1.0 with example data
+
+Currently 'tidied' Functions
 ----------------------------
 
 So far, the following functions are be called directly from the package without having to load the `PhysioScripts` suite:
