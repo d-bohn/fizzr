@@ -8,7 +8,7 @@ bibliography: fizzr.bib
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, error = FALSE, message = FALSE)
 ```
 
-# fizzr
+# fizzr <img src="man/figures/fizzr_sticker.png" align="right" style="width:172.66px;height:200px;" />
 
 ***DISCLAIMER*** Very much a work in progress!
 
