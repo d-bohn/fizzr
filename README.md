@@ -1,8 +1,8 @@
 fizzr: A tidy port of PhysioScripts
 ================
 
-fizzr <img src="man/figures/fizzr_sticker.png" align="right" style="width:172.66px;height:200px;" />
-====================================================================================================
+fizzr <img src="man/figures/fizzr_sticker_small.png" align="right" />
+=====================================================================
 
 ***DISCLAIMER*** Very much a work in progress!
 
